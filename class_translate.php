@@ -51,7 +51,7 @@ class Translate
 			// whoops, not translated
 			if (isset($translations[$this->defaultLanguage][$text])) // translated to default language?
 			{
-				error_log('[Translate]: '.$text.' not translated in '.$this->defaultLanguage.'!'); // output to log
+				error_log('[Translate]: '.$text.' not translated in '.$language.'!'); // output to log
 				return $translations[$this->defaultLanguage][$text];
 			}
 			else
