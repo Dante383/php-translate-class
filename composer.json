@@ -1,0 +1,6 @@
+{
+    "name": "php-translate-class"
+    "autoload": {
+        "files": ["class_translate.php"]
+    }
+}
