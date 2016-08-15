@@ -1,5 +1,5 @@
 {
-    "name": "Dante383/php-translate-class",
+    "name": "dante383/php-translate-class",
     "autoload": {
         "files": ["class_translate.php"]
     }
