@@ -1,6 +1,6 @@
 <?php 
 require_once('class_translate.php');
-$t = new Translate('en'); // initi class and set default language
+$t = new Translate('en'); // init class and set default language
 
 $helloworld = $t->translateText('helloworld', 'pl');
 if($helloworld)
